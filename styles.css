@@ -1,0 +1,466 @@
+<<<<<<< HEAD
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+h2 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #23838a;
+}
+
+main {
+    height: 80vh;
+    overflow: hidden;
+}
+
+/*HEADER*/
+
+header img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.navigation {
+    position: sticky!important;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    z-index: 9999;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0px 10px;
+    color: #23838a;
+}
+
+.navigation input[type=text] {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    border: none;
+    width: 40vh;
+    padding: 5px;
+}
+
+/*MAIN*/
+
+.warning {
+    padding: 30px;
+    background-color: white;
+    margin: 10vh 30vh;
+    text-align: center;
+}
+
+.warning p {
+    padding-top: 20px;
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* STILLS PAGE */
+
+/*BUTTONS*/
+
+.by-season, .by-episode, .show-stills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px 20px 120px;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+}
+
+.by-season {
+    height: max-content;
+    padding-top: 35px;
+}
+
+.by-season a, .by-episode a {
+    text-decoration: none;
+    color: white;
+    background-color: #23838a;
+    padding: 10vh;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    height: min-content;
+}
+
+.by-episode {
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .75s;
+    height: 0;
+}
+
+.by-episode:target {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: all .75s;
+    height: 100vh;
+    position: absolute;
+    top: 100vh;
+    width: -webkit-fill-available;
+}
+
+.show-stills {
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .75s;
+    height: 0;
+}
+
+.show-stills:target {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: all .75s;
+    padding: 15vh;
+    background-color: #e7e7e7;
+    position: absolute;
+    top: 100vh;
+    height: max-content;
+}
+
+.show-stills img {
+    height: 30vh;
+    width: 40vh;
+    object-fit: cover;
+    border: 5px solid #23838a;
+    image-resolution: 72dpi;
+}
+
+.show-videos {
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .75s;
+    height: 0;
+}
+
+.show-videos:target {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: all .75s;
+    height: max-content;
+    background-color: #e7e7e7;
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px 20px 120px;
+    overflow: hidden;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.show-videos a {
+    text-decoration: none;
+    color: white;
+    background-color: #23838a;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid #23838a;
+    width: 40vh;
+}
+
+.show-videos img {
+    height: 30vh;
+    width: 40vh;
+    object-fit: cover;
+}
+
+/*BUTTONS END*/
+
+/*FOOTER*/
+footer {
+    padding: 30px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #23838a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    z-index: 9999;
+=======
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+h2 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #23838a;
+}
+
+main {
+    height: 80vh;
+    overflow: hidden;
+}
+
+/*HEADER*/
+
+header img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.navigation {
+    position: sticky!important;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    z-index: 9999;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0px 10px;
+    color: #23838a;
+}
+
+.navigation input[type=text] {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    border: none;
+    width: 40vh;
+    padding: 5px;
+}
+
+/*MAIN*/
+
+.warning {
+    padding: 30px;
+    background-color: white;
+    margin: 10vh 30vh;
+    text-align: center;
+}
+
+.warning p {
+    padding-top: 20px;
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* STILLS PAGE */
+
+/*BUTTONS*/
+
+.by-season, .by-episode, .show-stills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px 20px 120px;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+}
+
+.by-season {
+    height: max-content;
+    padding-top: 35px;
+}
+
+.by-season a, .by-episode a {
+    text-decoration: none;
+    color: white;
+    background-color: #23838a;
+    padding: 10vh;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    height: min-content;
+}
+
+.by-episode {
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .75s;
+    height: 0;
+}
+
+.by-episode:target {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: all .75s;
+    height: 100vh;
+    position: absolute;
+    top: 100vh;
+    width: -webkit-fill-available;
+}
+
+.show-stills {
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .75s;
+    height: 0;
+}
+
+.show-stills:target {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: all .75s;
+    padding: 15vh;
+    background-color: #e7e7e7;
+    position: absolute;
+    top: 100vh;
+    height: max-content;
+}
+
+.show-stills img {
+    height: 30vh;
+    width: 40vh;
+    object-fit: cover;
+    border: 5px solid #23838a;
+    image-resolution: 72dpi;
+}
+
+.show-videos {
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .75s;
+    height: 0;
+}
+
+.show-videos:target {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: all .75s;
+    height: max-content;
+    background-color: #e7e7e7;
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px 20px 120px;
+    overflow: hidden;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.show-videos a {
+    text-decoration: none;
+    color: white;
+    background-color: #23838a;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid #23838a;
+    width: 40vh;
+}
+
+.show-videos img {
+    height: 30vh;
+    width: 40vh;
+    object-fit: cover;
+}
+
+/*BUTTONS END*/
+
+/*FOOTER*/
+footer {
+    padding: 30px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #23838a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    z-index: 9999;
+>>>>>>> 2cdc79d3b247e8f1d86362b06e7e4837332030d2
+}
